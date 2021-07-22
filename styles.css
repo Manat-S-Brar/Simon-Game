@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'ARB 66 Neon Line JUN-37';
+  src: url('fonts/ARB66NeonLineJUN-37.woff2') format('woff2'),
+    url('fonts/ARB66NeonLineJUN-37.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  text-align: center;
+  background-color: #141414;
+}
+h2{
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+u
+{
+  text-decoration: none;
+  border-bottom: 4px solid #9c2727;
+}
+#head{
+  color: #ede9e8;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0 auto 30px;
+  font-family: 'ARB 66 Neon Line JUN-37';
+  font-size: 2.3rem;
+}
+#level-titlem, #level-titlee ,#level-titled{
+  font-family: 'ARB 66 Neon Line JUN-37';
+  font-size: 6.5rem;
+  margin: 8% 6%;
+  color: #9c2727;
+  font-weight: normal;
+  /*text-shadow: -2px 2px 5px black ,2px 2px 5px black , 2px -2px 5px black,-2px -2px 5px black;*/
+}
+button{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 7px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.mainPage {
+  font-family: 'ARB 66 Neon Line JUN-37';
+  font-size: 7.3rem;
+  margin: 3% 6% 4%;
+  color: #9c2727;
+  font-weight: normal;
+
+  /* text-shadow: -2px 2px 5px #b80000,2px 2px 5px #b80000, 2px -2px 5px #b80000,-2px -2px 5px #b80000; */
+}
+.easy{
+  display: none;
+}
+.medium{
+  display: none;
+}
+.difficult{
+  display: none;
+}
+.container {
+  display: none;
+  width: 75%;
+  margin: auto;
+}
+
+.mtn:hover {
+  background-color: #141414;
+  color:white;
+
+}
+
+.mtn {
+  display: block;
+  font-family: 'ARB 66 Neon Line JUN-37';
+  color: #9c2727;
+  background-color: #141414;
+  border: none;
+  padding: 5px;
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 2.3rem;
+}
+
+.difficulty {
+  border: 1px solid #9c2727;
+  width:30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 20px 15px;
+  display: inline-block;
+  height: 175px;
+  width: 175px;
+  /*border: 5px solid #b80000;*/
+  border-radius: 30%;
+  opacity: 0.8;
+}
+.btnm {
+  margin: 20px 15px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  /*border: 5px solid #b80000;*/
+  border-radius: 30%;
+  opacity: 0.8;
+}
+.btnd {
+  margin: 15px 15px;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  /*border: 5px solid #b80000;*/
+  border-radius: 30%;
+  opacity: 0.8;
+}
+
+.game-over {
+  background-color: #ab0000;
+  opacity: 0.8;
+}
+.gif{
+  display: none;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.royalblue {
+  background-color: royalblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.orange {
+  background-color: orange;
+}
+.indigo{
+  background-color: indigo;
+}
+.hotpink{
+  background-color: hotpink;
+}
+.wheat{
+  background-color: wheat;
+}
+.aquamarine{
+  background-color: aquamarine;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #FEF2BF;
+  opacity: 1;
+}
